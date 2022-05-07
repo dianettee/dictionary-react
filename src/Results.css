@@ -1,5 +1,5 @@
-.Results {
-  text-align: left;
-  margin-top: 20px;
-  font-size: 20px;
+.Results h2 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.5;
 }

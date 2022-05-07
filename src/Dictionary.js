@@ -24,11 +24,14 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
-        <input type="submit" />
-        <Results results={results} />
-      </form>
+      <section>
+        <h1>Look up a word:</h1>
+        <form onSubmit={search}>
+          <input type="search" onChange={handleKeywordChange} />
+          <input type="submit" className="submitButton" />
+        </form>
+      </section>
+      <Results results={results} />
     </div>
     //    Results        results=        {results} />
     // Component name    property name   property value, state which is declared at the top
