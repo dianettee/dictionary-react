@@ -6,8 +6,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="App">DICTIONARY by</div>
-        <img src={logo} className="logo img-fluid" alt="logo" />
+        <div>
+          Dictionary by <img src={logo} className="logo img-fluid" alt="logo" />
+        </div>
         <div className="Dictionary">
           <Dictionary />
         </div>
